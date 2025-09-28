@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d19d7e6f72744154a9277a44396c5400
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Source/Plugins/Views/UI/HyperLink.cs
+  uploadId: 154515

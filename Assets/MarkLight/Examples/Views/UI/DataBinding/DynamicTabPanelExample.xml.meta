@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5618bc4084da40b4f9f7b66b18f8eafc
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Examples/Views/UI/DataBinding/DynamicTabPanelExample.xml
+  uploadId: 154515

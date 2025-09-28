@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e34ac4963f65a9842a45e95c088b736e
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Views/UI/Column.xml
+  uploadId: 154515

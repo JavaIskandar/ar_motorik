@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 9490b92074823be40a1170875ae0c46e
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Examples/Views/UI/DataBinding/DynamicComboBoxExample.xml
+  uploadId: 154515

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f203ee12a8f0d9249adee9e7fd35868a
+timeCreated: 1467197533
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Examples/Scenes/GameMenuExample.unity
+  uploadId: 154515

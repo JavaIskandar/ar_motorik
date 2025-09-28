@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6e71873ea7900dc47ba32f84474896ad
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Examples/Source/Data/Data.cs
+  uploadId: 154515

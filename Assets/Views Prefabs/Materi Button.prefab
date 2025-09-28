@@ -1,0 +1,832 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2738540233986568978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2738540233986568979}
+  - component: {fileID: 2738540233986568983}
+  - component: {fileID: 2738540233986568977}
+  - component: {fileID: 8899516908037557775}
+  - component: {fileID: 5012084608502220458}
+  m_Layer: 0
+  m_Name: Materi Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2738540233986568979
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540233986568978}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2738540234487093860}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -87, y: 221}
+  m_SizeDelta: {x: 170.78, y: 141.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2738540233986568983
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540233986568978}
+  m_CullTransparentMesh: 0
+--- !u!114 &2738540233986568977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540233986568978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 68e60023193570844babfa840f494e48, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!114 &8899516908037557775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540233986568978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2738540233986568977}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5012084608502220458}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &5012084608502220458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540233986568978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f61b351a8e2fa43830d0441f94d857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActive: []
+  objectToDisable: []
+--- !u!1 &2738540234487093863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2738540234487093860}
+  - component: {fileID: 2738540234487093886}
+  - component: {fileID: 2738540234487093881}
+  - component: {fileID: 2738540234487093880}
+  - component: {fileID: 2738540234487093883}
+  - component: {fileID: 2738540234487093882}
+  - component: {fileID: 2738540234487093861}
+  m_Layer: 0
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2738540234487093860
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540234487093863}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2738540233986568979}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 150.79, y: 85.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2738540234487093886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540234487093863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f5c160c071d84ea1ddcd51caca4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 
+  Style: Level
+  BasedOn: 
+  Theme: Toon
+  BaseDirectory: 
+  UnitSize: {x: 0, y: 0, z: 0}
+  LayoutParent: {fileID: 0}
+  Parent: {fileID: 0}
+  Content: {fileID: 2738540234487093886}
+  State:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: State
+    IsMapped: 0
+    _isSet: 1
+    _internalValue: Default
+  IsActive:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: IsActive
+    IsMapped: 0
+    _isSet: 1
+    _internalValue: 1
+  HideFlags:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: HideFlags
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  GameObject: {fileID: 2738540234487093863}
+  Transform: {fileID: 2738540234487093860}
+  Position:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Position
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: {x: 0, y: 0, z: 0}
+  Rotation:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Rotation
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: {x: 0, y: 0, z: 0, w: 0}
+  Scale:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Scale
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: {x: 0, y: 0, z: 0}
+  Cancel:
+    Name: Cancel
+    TriggeredByEventSystem: 1
+    EventTriggerType: 16
+    IsDisabled: 0
+  Deselect:
+    Name: Deselect
+    TriggeredByEventSystem: 1
+    EventTriggerType: 10
+    IsDisabled: 0
+  Drop:
+    Name: Drop
+    TriggeredByEventSystem: 1
+    EventTriggerType: 6
+    IsDisabled: 0
+  Move:
+    Name: Move
+    TriggeredByEventSystem: 1
+    EventTriggerType: 11
+    IsDisabled: 0
+  Click:
+    Name: Click
+    TriggeredByEventSystem: 1
+    EventTriggerType: 4
+    IsDisabled: 0
+  BeginDrag:
+    Name: BeginDrag
+    TriggeredByEventSystem: 1
+    EventTriggerType: 13
+    IsDisabled: 0
+  EndDrag:
+    Name: EndDrag
+    TriggeredByEventSystem: 1
+    EventTriggerType: 14
+    IsDisabled: 0
+  Drag:
+    Name: Drag
+    TriggeredByEventSystem: 1
+    EventTriggerType: 5
+    IsDisabled: 0
+  InitializePotentialDrag:
+    Name: InitializePotentialDrag
+    TriggeredByEventSystem: 1
+    EventTriggerType: 12
+    IsDisabled: 0
+  MouseDown:
+    Name: MouseDown
+    TriggeredByEventSystem: 1
+    EventTriggerType: 2
+    IsDisabled: 0
+  MouseEnter:
+    Name: MouseEnter
+    TriggeredByEventSystem: 1
+    EventTriggerType: 0
+    IsDisabled: 0
+  MouseExit:
+    Name: MouseExit
+    TriggeredByEventSystem: 1
+    EventTriggerType: 1
+    IsDisabled: 0
+  MouseUp:
+    Name: MouseUp
+    TriggeredByEventSystem: 1
+    EventTriggerType: 3
+    IsDisabled: 0
+  Scroll:
+    Name: Scroll
+    TriggeredByEventSystem: 1
+    EventTriggerType: 7
+    IsDisabled: 0
+  Select:
+    Name: Select
+    TriggeredByEventSystem: 1
+    EventTriggerType: 9
+    IsDisabled: 0
+  Submit:
+    Name: Submit
+    TriggeredByEventSystem: 1
+    EventTriggerType: 15
+    IsDisabled: 0
+  UpdateSelected:
+    Name: UpdateSelected
+    TriggeredByEventSystem: 1
+    EventTriggerType: 8
+    IsDisabled: 0
+  Item:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Item
+    IsMapped: 0
+    _isSet: 0
+  IsTemplate:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: IsTemplate
+    IsMapped: 0
+    _isSet: 0
+    _internalValue: 0
+  Activated:
+    Name: Activated
+    TriggeredByEventSystem: 0
+    EventTriggerType: 0
+    IsDisabled: 0
+  Deactivated:
+    Name: Deactivated
+    TriggeredByEventSystem: 0
+    EventTriggerType: 0
+    IsDisabled: 0
+  IsDestroyed:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: IsDestroyed
+    IsMapped: 0
+    _isSet: 0
+    _internalValue: 0
+  IsDynamic:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: IsDynamic
+    IsMapped: 0
+    _isSet: 0
+    _internalValue: 0
+  PropagateChildLayoutChanges:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: PropagateChildLayoutChanges
+    IsMapped: 0
+    _isSet: 1
+    _internalValue: 0
+  ViewTypeName: Label
+  ViewXumlName: Label
+  ViewFieldBindings:
+  - BindingString: '{#Item.Number}'
+    ViewField: Text
+  ViewActionEntries: []
+  ViewFieldStateValues: []
+  SetViewFieldNames:
+  - TextComponent.font
+  - TextComponent.fontSize
+  - Width
+  - Height
+  - Style
+  - TextComponent.color
+  - ShadowColor
+  - ShadowDistance
+  - OutlineColor
+  - OutlineDistance
+  - TextAlignment
+  - Alignment
+  - RaycastBlockMode
+  - Item
+  - TextComponent.text
+  - Item.Number
+  ValueConverterContext:
+    BaseDirectory: 
+    UnitSize: {x: 50, y: 50, z: 50}
+  Width:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Width
+    IsMapped: 0
+    _isSet: 1
+    _internalValue:
+      _value: 80
+      _unit: 0
+      _fill: 0
+  Height:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Height
+    IsMapped: 0
+    _isSet: 1
+    _internalValue:
+      _value: 60
+      _unit: 0
+      _fill: 0
+  OverrideWidth:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: OverrideWidth
+    IsMapped: 0
+    _isSet: 1
+    _internalValue:
+      _value: 0
+      _unit: 0
+      _fill: 0
+  OverrideHeight:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: OverrideHeight
+    IsMapped: 0
+    _isSet: 1
+    _internalValue:
+      _value: 0
+      _unit: 0
+      _fill: 0
+  Alignment:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Alignment
+    IsMapped: 0
+    _isSet: 1
+    _internalValue: 2
+  Margin:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Margin
+    IsMapped: 0
+    _isSet: 1
+    _internalValue:
+      _left:
+        _value: 0
+        _unit: 0
+        _fill: 0
+      _top:
+        _value: 0
+        _unit: 0
+        _fill: 0
+      _right:
+        _value: 0
+        _unit: 0
+        _fill: 0
+      _bottom:
+        _value: 0
+        _unit: 0
+        _fill: 0
+  Offset:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Offset
+    IsMapped: 0
+    _isSet: 1
+    _internalValue:
+      _left:
+        _value: 0
+        _unit: 0
+        _fill: 0
+      _top:
+        _value: 0
+        _unit: 0
+        _fill: 0
+      _right:
+        _value: 0
+        _unit: 0
+        _fill: 0
+      _bottom:
+        _value: 0
+        _unit: 0
+        _fill: 0
+  OffsetFromParent:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: OffsetFromParent
+    IsMapped: 0
+    _isSet: 1
+    _internalValue:
+      _left:
+        _value: 0
+        _unit: 0
+        _fill: 0
+      _top:
+        _value: 0
+        _unit: 0
+        _fill: 0
+      _right:
+        _value: 0
+        _unit: 0
+        _fill: 0
+      _bottom:
+        _value: 0
+        _unit: 0
+        _fill: 0
+  Pivot:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Pivot
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: {x: 0, y: 0}
+  RectTransform: {fileID: 2738540234487093860}
+  RaycastBlockMode:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: RaycastBlockMode
+    IsMapped: 0
+    _isSet: 0
+    _internalValue: 2
+  Alpha:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Alpha
+    IsMapped: 0
+    _isSet: 1
+    _internalValue: 1
+  IsVisible:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: IsVisible
+    IsMapped: 0
+    _isSet: 1
+    _internalValue: 1
+  SortIndex:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: SortIndex
+    IsMapped: 0
+    _isSet: 1
+    _internalValue: 0
+  UpdateRectTransform:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: UpdateRectTransform
+    IsMapped: 0
+    _isSet: 1
+    _internalValue: 1
+  UpdateBackground:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: UpdateBackground
+    IsMapped: 0
+    _isSet: 1
+    _internalValue: 1
+  ImageComponent: {fileID: 0}
+  BackgroundImageEventAlphaThreshold:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImageEventAlphaThreshold
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  BackgroundImageFillAmount:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImageFillAmount
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  BackgroundImageFillCenter:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImageFillCenter
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  BackgroundImageFillClockwise:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImageFillClockwise
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  BackgroundImageFillMethod:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImageFillMethod
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  BackgroundImageFillOrigin:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImageFillOrigin
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  BackgroundImageOverrideSprite:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImageOverrideSprite
+    IsMapped: 0
+    _isSet: 0
+    _internalValue:
+      UnityAsset:
+        Asset: {fileID: 0}
+        Path: 
+  BackgroundImagePreserveAspect:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImagePreserveAspect
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  BackgroundImage:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImage
+    IsMapped: 0
+    _isSet: 0
+    _internalValue:
+      UnityAsset:
+        Asset: {fileID: 0}
+        Path: 
+  BackgroundImageType:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImageType
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  BackgroundMaterial:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundMaterial
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: {fileID: 0}
+  BackgroundImageMaskable:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundImageMaskable
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  BackgroundColor:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: BackgroundColor
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: {r: 0, g: 0, b: 0, a: 0}
+  Text:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Text
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 
+  Font:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: Font
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: {fileID: 0}
+  FontSize:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: FontSize
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  LineSpacing:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: LineSpacing
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  SupportRichText:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: SupportRichText
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  FontColor:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: FontColor
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: {r: 0, g: 0, b: 0, a: 0}
+  FontStyle:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: FontStyle
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  AlignByGeometry:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: AlignByGeometry
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  ResizeTextForBestFit:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: ResizeTextForBestFit
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  ResizeTextMaxSize:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: ResizeTextMaxSize
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  ResizeTextMinSize:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: ResizeTextMinSize
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  HorizontalOverflow:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: HorizontalOverflow
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  VerticalOverflow:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: VerticalOverflow
+    IsMapped: 1
+    _isSet: 0
+    _internalValue: 0
+  TextComponent: {fileID: 2738540234487093880}
+  TextAlignment:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: TextAlignment
+    IsMapped: 0
+    _isSet: 1
+    _internalValue: 0
+  ShadowColor:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: ShadowColor
+    IsMapped: 0
+    _isSet: 0
+    _internalValue: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  ShadowDistance:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: ShadowDistance
+    IsMapped: 0
+    _isSet: 0
+    _internalValue: {x: 2, y: -2}
+  OutlineColor:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: OutlineColor
+    IsMapped: 0
+    _isSet: 0
+    _internalValue: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  OutlineDistance:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: OutlineDistance
+    IsMapped: 0
+    _isSet: 0
+    _internalValue: {x: 2, y: -1}
+  AdjustToText:
+    ParentView: {fileID: 2738540234487093886}
+    ViewFieldPath: AdjustToText
+    IsMapped: 0
+    _isSet: 0
+    _internalValue: 0
+--- !u!222 &2738540234487093881
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540234487093863}
+  m_CullTransparentMesh: 0
+--- !u!114 &2738540234487093880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540234487093863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ff37478138959914b860cd3a6f150cc7, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Pengertian Puisi
+--- !u!225 &2738540234487093883
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540234487093863}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
+--- !u!114 &2738540234487093882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540234487093863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
+--- !u!114 &2738540234487093861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2738540234487093863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_EffectDistance: {x: 2, y: -1}
+  m_UseGraphicAlpha: 1

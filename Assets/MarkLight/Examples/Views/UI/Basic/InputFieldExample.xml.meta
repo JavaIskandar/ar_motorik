@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b24a9e626433d1848848063e3dbd2607
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Examples/Views/UI/Basic/InputFieldExample.xml
+  uploadId: 154515

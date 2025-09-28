@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: adf667e579f9c9f448a3d8a555d5cf38
+timeCreated: 1471197442
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Views/UI/TextMeshProLabel.xml
+  uploadId: 154515

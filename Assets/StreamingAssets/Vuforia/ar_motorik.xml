@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="non_lokomotif" size="1.000000 1.500000" />
+    <ImageTarget name="manipulatif" size="1.000000 1.500000" />
+    <ImageTarget name="lokomotif" size="1.000000 1.500000" />
+  </Tracking>
+</QCARConfig>

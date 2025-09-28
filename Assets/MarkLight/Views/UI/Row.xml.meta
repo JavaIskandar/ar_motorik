@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 667bd7279f392cd4fa2520d4cab57cb8
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Views/UI/Row.xml
+  uploadId: 154515

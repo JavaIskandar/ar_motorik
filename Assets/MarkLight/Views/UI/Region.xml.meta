@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1c4813f98347f3d4db0ebd409f4f3a5d
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Views/UI/Region.xml
+  uploadId: 154515

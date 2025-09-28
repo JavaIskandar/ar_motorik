@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d687965bc1f0596478ce7e1a22342b6b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Source/Plugins/Animation/ValueInterpolators/Vector2ValueInterpolator.cs
+  uploadId: 154515

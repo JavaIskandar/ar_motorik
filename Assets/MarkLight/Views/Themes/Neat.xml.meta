@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 54c5a338da1bf6549a8f114a6ba3eb5f
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Views/Themes/Neat.xml
+  uploadId: 154515

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b5a812c98be518f4fbd28cd75958436f
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Examples/Views/UI/DataBinding/DynamicListExample.xml
+  uploadId: 154515

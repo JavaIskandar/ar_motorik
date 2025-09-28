@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 960873036a8ca0d43ae5ec1e3eddedee
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Examples/Views/UI/Basic/ComboBoxExample.xml
+  uploadId: 154515

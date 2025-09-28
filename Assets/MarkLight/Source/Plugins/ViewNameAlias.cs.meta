@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4814500ac1551f242b6b21acb8a3d0cd
+timeCreated: 1471688738
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Source/Plugins/ViewNameAlias.cs
+  uploadId: 154515

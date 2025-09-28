@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 3f50134069406eb4bbfdd72b815ca790
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Views/Themes/Toon.xml
+  uploadId: 154515

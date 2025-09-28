@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5103c6e837409ba428f42773963047f9
+timeCreated: 1456870037
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Please Read This.txt
+  uploadId: 154515

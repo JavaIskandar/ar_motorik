@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 66f34cd5945d4d645b91b2f5c0be7b58
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Views/UI/Label.xml
+  uploadId: 154515

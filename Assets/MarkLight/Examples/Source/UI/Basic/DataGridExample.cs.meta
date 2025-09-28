@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: be06e025d577eb842bef2282f7600101
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Examples/Source/UI/Basic/DataGridExample.cs
+  uploadId: 154515

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c90c40001ad76014aa327d10a89ef125
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Source/Plugins/Views/UI/Region.cs
+  uploadId: 154515

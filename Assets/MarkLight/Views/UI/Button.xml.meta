@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c3465e22c7496c4458144e042266c3f7
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Views/UI/Button.xml
+  uploadId: 154515

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a3b15a4e9ce30cf4886551e493fd57a0
+timeCreated: 1456868401
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Source/Plugins/Editor/Configuration.cs
+  uploadId: 154515

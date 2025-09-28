@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: bf5285943185c4949bea51a7013fd702
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37466
+  packageName: 'MarkLight: Unity Presentation Framework'
+  packageVersion: 2.7.0
+  assetPath: Assets/MarkLight/Views/UI/RadioButton.xml
+  uploadId: 154515
